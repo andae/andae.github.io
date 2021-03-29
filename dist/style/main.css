@@ -1,0 +1,1919 @@
+@charset "UTF-8";
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block; }
+
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden] {
+  display: none; }
+
+html {
+  font-family: 'Lato', sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+     }
+
+body {
+  margin: 0; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:active,
+a:hover {
+  outline: 0; }
+
+h1 {
+  font-size: 2em; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b,
+strong {
+  font-weight: bold; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background: #826267;
+  color: #000; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+small {
+  font-size: 80%; }
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+figure {
+  margin: 0; }
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+legend {
+  border: 0;
+  padding: 0;
+       }
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+   }
+
+button,
+input {
+  line-height: normal; }
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+   }
+
+button[disabled],
+input[disabled] {
+  cursor: default; }
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  }
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+   }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.st0:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st1:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st2:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st3:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st4:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st5:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st6:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st7:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st8:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st9:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st10:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st11:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st12:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st13:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st14:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st15:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st16:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st17:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st18:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st19:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st20:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st21:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st22:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st23:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st24:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st25:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st26:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st27:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st28:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st29:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st30:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st31:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st32:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st33:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st34:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st35:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st36:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st37:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st38:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st39:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st40:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st41:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st42:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st43:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st44:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st45:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st46:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st47:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st48:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st49:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st50:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st51:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st52:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st53:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st54:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st55:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st56:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st57:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st58:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st59:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st60:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st61:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st62:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st63:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st64:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st65:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st66:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st67:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st68:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st69:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st70:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st71:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st72:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st73:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st74:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st75:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st76:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st77:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st78:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st79:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st80:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st81:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st82:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st83:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st84:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st85:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st86:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st87:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st88:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st89:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st90:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st91:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st92:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st93:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st94:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st95:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st96:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st97:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st98:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st99:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st100:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st101:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st102:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st103:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st104:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st105:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st106:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st107:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st108:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st109:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st110:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st111:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st112:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st113:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st114:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st115:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st116:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st117:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st118:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st119:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st120:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st121:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st122:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st123:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st124:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st125:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st126:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st127:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st128:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st129:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st130:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st131:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st132:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st133:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st134:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st135:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st136:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st137:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st138:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st139:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st140:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st141:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st142:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st143:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st144:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st145:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st146:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st147:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st148:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st149:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st150:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st151:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st152:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st153:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st154:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st155:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st156:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st157:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st158:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st159:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st160:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st161:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st162:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st163:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st164:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st165:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st166:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st167:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st168:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st169:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st170:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st171:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st172:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st173:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st174:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st175:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st176:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st177:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st178:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st179:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st180:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st181:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st182:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st183:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st184:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st185:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st186:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st187:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st188:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st189:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st190:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st191:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st192:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st193:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st194:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st195:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st196:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st197:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st198:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st199:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st200:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st201:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st202:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st203:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st204:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st205:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st206:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st207:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st208:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st209:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st210:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st211:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st212:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st213:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st214:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st215:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st216:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st217:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st218:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st219:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st220:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st221:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st222:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st223:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st224:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st225:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st226:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st227:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st228:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st229:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st230:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st231:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st232:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st233:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st234:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st235:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st236:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st237:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st238:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st239:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st240:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st241:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st242:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st243:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st244:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st245:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st246:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st247:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st248:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st249:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st250:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st251:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st252:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st253:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st254:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st255:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st256:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st257:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st258:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st259:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st260:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st261:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st262:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st263:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st264:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st265:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st266:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st267:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st268:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st269:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st270:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st271:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st272:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st273:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st274:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st275:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st276:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st277:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st278:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st279:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st280:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st281:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st282:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st283:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st284:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st285:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st286:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st287:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st288:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st289:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st290:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st291:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st292:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st293:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st294:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st295:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st296:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st297:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st298:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st299:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st300:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st301:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st302:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st303:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st304:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st305:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st306:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st307:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st308:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st309:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st310:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st311:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st312:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st313:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st314:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st315:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st316:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st317:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st318:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st319:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st320:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st321:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st322:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st323:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st324:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st325:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st326:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st327:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st328:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st329:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st330:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st331:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st332:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st333:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st334:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st335:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st336:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st337:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st338:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st339:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st340:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st341:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st342:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st343:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st344:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st345:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st346:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st347:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st348:hover {
+  animation: none;
+  cursor: crosshair; }
+
+.st13, .st14, .st309, .st164, .st144, .st295, .st164, .st52, .st11, .st299 {
+  animation: none; }
+
+section.shards {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  z-index: -2;
+  margin-top: -30px; }
+
+.svg-title {
+  font-family: 'Pacifico', serif;
+  opacity: .6; }
+
+.😸{
+  display: block;
+  margin: auto;
+  max-width: 400px;
+  margin-top: 15px; }
+
+.shard1 {
+  position: absolute;
+  top: 5%;
+  left: 34%;
+  z-index: -2;
+  width: 920px; }
+  .shard1 .😽{
+    fill: #3a2650; }
+  .shard1:hover {
+    animation: none;
+    cursor: crosshair; }
+
+.shard2 {
+  position: absolute;
+  top: 5%;
+  left: 1%;
+  z-index: -2;
+  width: 480px; }
+  .shard2 .😽{
+    fill: #000000;
+   }
+  .shard2:hover {
+    animation: none;
+    cursor: crosshair; }
+
+.shard3 {
+  position: absolute;
+  top: 0;
+  left: 9%;
+  z-index: -2;
+  width: 1092px; }
+  .shard3 .😽{
+    fill: #494664;
+    width: 1104px; }
+  .shard3:hover {
+    animation: none;
+    cursor: crosshair; }
+
+.shard4 {
+  position: absolute;
+  top: 3%;
+  left: 23%;
+  z-index: -2;
+  width: 576px; }
+  .shard4 .😽{
+    fill: #494664; }
+  .shard4:hover {
+    animation: none;
+    cursor: crosshair; }
+
+.self-portrait {
+  padding: 10px; }
+
+.self-portrait polygon {
+  fill-opacity: 0;
+  stroke: papayawhip;
+  stroke-width: 1;
+  stroke-dasharray: 252;
+  stroke-dashoffset: 252;
+  animation: draw 5s linear forwards; }
+
+@keyframes draw {
+  0% {
+    fill-opacity: 0; }
+  60% {
+    fill-opacity: 1; }
+  80% {
+    stroke-dashoffset: 0;
+    stroke-width: 0; }
+  100% {
+    fill-opacity: 1;
+    stroke-width: 0;
+    stroke-dashoffset: 0; } }
+body {
+  background-color: #121212;
+  position: relative;
+  font-family: 'Open Sans Condensed', sans-serif; }
+
+main {
+  max-width: 970px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.main-grid {
+  margin: auto;
+  padding: 20px;
+  padding-top: 0;
+  margin-bottom: 30px;
+  max-width: 400px; }
+  @supports (display: grid) {
+    @media (min-width: 600px) {
+      .main-grid {
+        max-width: none;
+        display: grid;
+        grid-template-columns: 1.3fr .6fr 1.3fr .8fr 1fr 1.6fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 1vw; } } }
+
+.main-grid-content {
+  z-index: 3; }
+
+.main-grid-color-theory {
+  grid-column: 1 / span 3;
+  grid-row: 6;
+  align-self: center;
+  justify-self: center;
+  z-index: 2; }
+
+.main-grid-speaking {
+  grid-column: 2 / span 4;
+  grid-row: 5;
+  justify-self: center; }
+
+.main-grid-grid {
+  grid-column: 5 / span 2;
+  grid-row: 7; }
+
+.main-grid-writing {
+  grid-column: 5;
+  grid-row: 2 / 3;
+  align-self: end;
+  justify-self: right; }
+
+.main-grid-coding {
+  grid-column: 3 / span 3;
+  grid-row: 2; }
+  @supports (display: grid) {
+    @media (min-width: 600px) {
+      .main-grid-coding {
+        min-height: 250px; } } }
+
+.main-grid-teaching {
+  grid-column: 5 / span 2;
+  grid-row: 4 / 5;
+  align-self: center; }
+
+@keyframes draw {
+  0% {
+    fill-opacity: 0; }
+  60% {
+    fill-opacity: 1; }
+  80% {
+    stroke-dashoffset: 0;
+    stroke-width: 0; }
+  100% {
+    fill-opacity: 1;
+    stroke-width: 0;
+    stroke-dashoffset: 0; } }
+.background-shard {
+  fill: #494664;
+  stroke: #494664; }
+  .background-shard:hover {
+    animation: none;
+    cursor: crosshair; }
+
+.main-grid-coding-shard {
+  grid-column: 1 / span 4;
+  grid-row: 1 / 4;
+  min-height: 250px; }
+  .main-grid-coding-shard:hover {
+    animation: none; }
+
+.main-grid-teaching-shard {
+  grid-column: 4 / span 3;
+  grid-row: 4;
+  align-self: start; }
+  .main-grid-teaching-shard:hover {
+    animation: none; }
+
+.main-grid-color-theory-shard {
+  grid-column: 1 / span 3;
+  grid-row: 6;
+  align-self: start; }
+  .main-grid-color-theory-shard:hover {
+    animation: none; }
+
+.main-grid-writing-shard {
+  grid-column: 5 / span 2;
+  grid-row: 2;
+  align-self: center; }
+  .main-grid-writing-shard:hover {
+    animation: none; }
+
+.main-grid-illustrating {
+  grid-column: 4 / span 3;
+  grid-row: 3 / 4; 
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5px;
+  
+}
+.card-container .card:not(:last-child) {
+  margin-right: 0;
+}
+
+.card-container .card:not(.highlight-card) {
+  cursor: pointer;
+}
+
+.card-container .card:not(.highlight-card):hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+}
+
+.card-container .card:not(.highlight-card):hover .material-icons path {
+  fill: rgb(105, 103, 103);
+}
+
+@media screen and (max-width: 767px) {
+
+  .card-container > *:not(.circle-link) ,
+  .card:not(.highlight-card) {
+    height: 16px;
+    margin: 8px 0;
+  }
+
+  .card.highlight-card span {
+    margin-left: 72px;
+  }
+
+}
+
+.circle-link {
+  height: 42px;
+  width: 42px;
+  border-radius: 42px;
+  margin: 8px;
+  background-color: #32FF32;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: 1s ease-out;
+}
+
+.circle-link:hover {
+  transform: translateY(-0.25rem);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.main-grid-illustrating-shard {
+  grid-column: 3 / span 3;
+  grid-row: 3 / 4;
+  align-self: start; }
+  .main-grid-illustrating-shard:hover {
+    animation: none; }
+
+.main-grid-speaking-shard {
+  grid-column: 2 / span 5;
+  grid-row: 5;
+  align-self: start; }
+  .main-grid-speaking-shard:hover {
+    animation: none; }
+
+.main-grid-grid-shard {
+  grid-column: 4 / span 4;
+  grid-row: 7; }
+  .main-grid-grid-shard:hover {
+    animation: none; }
+
+.grid-shard polygon {
+  stroke-width: 3;
+  fill-opacity: 0;
+  stroke: papayawhip;
+  stroke-dasharray: 2052;
+  stroke-dashoffset: 2052;
+  animation: draw 5s 2s linear forwards; }
+
+.main-grid-coding-shard,
+.main-grid-speaking-shard,
+.main-grid-illustrating-shard,
+.main-grid-writing-shard,
+.main-grid-grid-shard,
+.main-grid-teaching-shard,
+.main-grid-grid-shard {
+  display: none; }
+  .main-grid-coding-shard:hover,
+  .main-grid-speaking-shard:hover,
+  .main-grid-illustrating-shard:hover,
+  .main-grid-writing-shard:hover,
+  .main-grid-grid-shard:hover,
+  .main-grid-teaching-shard:hover,
+  .main-grid-grid-shard:hover {
+    animation: none !important; }
+  @supports (display: grid) {
+    @media (min-width: 600px) {
+      .main-grid-coding-shard,
+      .main-grid-speaking-shard,
+      .main-grid-illustrating-shard,
+      .main-grid-writing-shard,
+      .main-grid-grid-shard,
+      .main-grid-teaching-shard,
+      .main-grid-grid-shard {
+        display: inline-block; } } }
+
+footer {
+  border-top: 1px solid #222;
+  text-align: center; }
+
+h2 {
+  color: #c7dce0;
+ }
+
+.😽{
+  text-align: left;
+  font-size: 28px;
+  border-bottom: 10px solid #494664; }
+  @supports (display: grid) {
+    @media (min-width: 600px) {
+      .😽{
+        border-bottom: none; } } }
+
+.🙀{
+  color: #c7dce0;
+  list-style: none;
+  font-size: 18px; }
+  .🙀 
+  li {
+    margin-bottom: .5em; }
+
+p {
+  color: #c7dce0;
+ }
+
+a {
+  color: #c7dce0; }
+  a:active, a:focus, a:hover {
+    color: white;
+    text-decoration: underline; }
+  a:focus {
+    outline: thin dotted; }
